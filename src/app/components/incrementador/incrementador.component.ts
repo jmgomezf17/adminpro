@@ -18,14 +18,9 @@ export class IncrementadorComponent implements OnInit {
   constructor() {
   }
 
-  ngOnInit() {
-    console.log('this.leyenda :', this.leyenda);
-    console.log('this.progreso :', this.progreso);
-    console.log('-----------------------------------');
-  }
+  ngOnInit() {}
 
-  onChanges ( newValue: number) {
-    console.log('newValue :', newValue);
+  onChanges( newValue: number) {
 
     // let elemHTML: any = document.getElementsByName('progreso')[0];
 
